@@ -1,0 +1,89 @@
+
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(to left, rgb(46, 41, 41) , rgb(0, 0, 0) );
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+.nav a{
+   color: rgb(255, 248, 248);
+   text-decoration: none;
+   font-size: 18pt;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.logo{
+    font-size: 30pt;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: white;
+}
+.li1{
+    border: 1px solid black;
+    padding: 10px;
+    background: rgba(94, 16, 94, 0.199);
+    text-decoration: none;
+    
+}
+ul .li1{
+font-size: 6pt;
+
+}
+.li1:hover{
+    background: rgb(77, 16, 77);
+
+}
+.t1{
+    color: purple;
+    margin-left: 10px;
+
+}
+.t2{
+    color: white;
+    margin-left: 10px;
+}
+p{
+    
+    color: white;
+    margin-left: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+input{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: 3px solid purple;
+}
+.enviar{
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+    background: rgb(107, 20, 107);
+}
+.enviar:hover{
+    background: rgba(195, 20, 230, 0.644)
+}
+.img{
+    margin-top: -230px;
+}
+.info{
+    display: flex;
+    justify-content: space-between ;
+}

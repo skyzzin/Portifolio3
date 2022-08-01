@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Anton';
+}
+body{
+    background: linear-gradient(to left, rgb(250, 83, 83),rgb(113, 113, 247));
+}
+/*Texto*/
+.bem-vindo{
+    background: rgba(255, 255, 255, 0.192);
+    border-radius: 30px;
+    text-align: center;
+    width: 600px;
+    font-size: 18pt;   
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav a img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+.conta a{
+    position: relative;
+    left: 350px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border-radius: 30px;
+    font-size: 18pt;   
+    padding: 4px;
+}
+.conta a:hover{
+    background: rgba(255, 248, 248, 0.555);
+    border: 4px solid black;
+}
+.container-loja{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px
+}
+.container-loja a img{
+    width: 100px;
+    height: 100px;
+}
+.container-loja a{
+    text-decoration: none;
+}
+#contato::after{
+    content: "Contato";
+    color: black;
+}
+#carrinho::after{
+    content: "Loja";
+    color: black;
+}
+#custom::after{
+    content: "Produtos Customizado";
+    color: black;
+}
+.container-loja a:hover{
+    background: rgba(255, 255, 255, 0.349);
+    border-radius: 15px;
+    border-bottom: 5px black solid;
+    margin-top: 10px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.redes a img{
+   width: 60px;
+   height: 60px;
+}
+.redes a:hover{
+    border-bottom: 5px solid black;
+    border-radius: 5px;
+}
+@media(max-width: 500px){
+    body{
+        background: rgb(113, 113, 247);
+    }
+}
+
+

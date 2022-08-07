@@ -47,6 +47,7 @@ main{
 }
 #sobre span span{
     font-size: 16pt;
+    padding:0 40px;
 }
 .capa{
     display: flex;

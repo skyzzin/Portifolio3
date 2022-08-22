@@ -27,7 +27,7 @@ header{
 .navbar ul li:hover a{
     border: 1px solid black;
     border-radius: 10px;
-    background: whitesmoke;
+    background: rgb(168, 164, 164);
     color: black;
     transition: ease .6s;
 }
@@ -40,14 +40,20 @@ main{
    right: 10px;
 }
 #sobre{
-    height: 100vh;
-    position: relative;
-    left: 50px;
 
+    height: 100vh;
+    
+   
+
+}
+#sobre span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #sobre span span{
     font-size: 16pt;
-    padding:0 40px;
+
 }
 .capa{
     display: flex;
@@ -154,7 +160,15 @@ main{
     
     margin-bottom: 10px;
 }
-
+footer{
+    background: rgba(0, 0, 0, 0.521);
+    height: 200px;
+}
+footer h2{
+    text-align:center;
+    padding-top: 80px;
+    color: white;
+}
 
 
 

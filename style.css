@@ -21,15 +21,12 @@ header{
     text-decoration: none;
     color: rgb(241, 233, 233);
     font-size: 18pt;
-    border-radius: 10px;
-    
 }
 .navbar ul li:hover a{
-    border: 1px solid black;
-    border-radius: 10px;
-    background: rgb(168, 164, 164);
-    color: black;
-    transition: ease .6s;
+    border-radius: 2px;
+    transition: 0.2s;
+    margin-bottom: 5px;
+    border-bottom: 5px solid rgb(255, 255, 255);
 }
 body{
     background:  #343444;
@@ -40,11 +37,7 @@ main{
    right: 10px;
 }
 #sobre{
-
     height: 100vh;
-    
-   
-
 }
 #sobre span{
     display: flex;
@@ -84,7 +77,6 @@ main{
     left: 10px;
     color: white;
 }
-
 #projeto{
     display: flex;
     height: 100vh;
@@ -145,8 +137,6 @@ main{
     align-items: center;
     height: 100vh;
     flex-direction: column;
-   
-
 }
 .redes .box{
     display: flex;
@@ -157,7 +147,6 @@ main{
     height: 150px;
 }
 .redes img:hover{
-    
     margin-bottom: 10px;
 }
 footer{
@@ -169,10 +158,6 @@ footer h2{
     padding-top: 80px;
     color: white;
 }
-
-
-
-
 @media(max-width: 600px){
     header ul li a{
         font-size: 10pt;
@@ -180,6 +165,3 @@ footer h2{
     }
    
 }
-
-
-

@@ -193,6 +193,7 @@ main .projetos{
     }
     .title{
         display: flex;
+        font-size: 16pt;
     }
     .menu{
         display: flex;

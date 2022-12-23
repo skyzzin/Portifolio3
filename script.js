@@ -1,3 +1,8 @@
+let menudrop = document.querySelector('#MenuDrop');
+
+let btn = document.querySelector('.menu').addEventListener('click',function(){
+    menudrop.classList.toggle('enable')
+})
 
 
 function write(e){

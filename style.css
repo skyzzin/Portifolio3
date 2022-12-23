@@ -1,167 +1,235 @@
 *{
-    padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 html{
     scroll-behavior: smooth;
 }
 header{
-    background: #4b4b66;
+    display: flex;  
+    align-items: center;
     width: 100%;
-    height: 80px;
-    position: fixed;
-    z-index: 100;
+    height: 20vh;
+    background: #4B4B66;
+    font-size: 20pt;
 }
-.navbar ul, li a{
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    list-style: none;
-    text-decoration: none;
-    color: rgb(241, 233, 233);
-    font-size: 18pt;
+.title{
+    display: none;
+    
 }
-.navbar ul li:hover a{
-    border-radius: 2px;
-    transition: 0.2s;
-    margin-bottom: 5px;
-    border-bottom: 5px solid rgb(255, 255, 255);
+#startText::after{
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    animation:blink .7 infinite;
 }
-body{
-    background:  #343444;
-    overflow: scroll;
+@keyframes blink{
+    0%,100%{opacity:0}
+    50%{opacity: 1;}
+    
 }
-main{
-   position: relative;
-   right: 10px;
-}
-#sobre{
-    height: 100vh;
-}
-#sobre span{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-#sobre span span{
-    font-size: 16pt;
-
-}
-.capa{
-    display: flex;
-    justify-content: space-around;
-    height: 100vh;
+header ul{
     width: 100%;
-}
-.capa .imgs{
-    position: relative;
-    top: 100px;
-    left: 30px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    height: 200px;
-    width: 200px;
-    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
 }
-.capa .imgs img{
-    width: 80px;
-    height: 80px;
-   
-    border-radius: 10px;
-}
-.capa span{
-    position: relative;
-    top: 100px;
-    left: 10px;
+.header a{
     color: white;
 }
-#projeto{
-    display: flex;
-    height: 100vh;
-    background:  #404053;
-    width: 100%;
-    padding:  0 10px;
+.header a:hover{
+    border-bottom: 5px solid white;
+    padding-bottom: 20px;
+    border-radius: 5px;
 }
-#projeto  {
+.menu{
+    display: none;
+}
+main{
+  
+    background: #343444;
+    width: 100%;
+    height: 100vh;
+  
+}
+.inicio{
+    width: 100%;
+    height: 80vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inicio img{
+    width: 100px;
+    height: 100px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.inicio-container{
+    display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    height: 80%;
 }
-.box{
+.text{
+    font-size: 20pt;
+    margin-bottom: 200px;
+    color: white;
+ }
+main .projetos{
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 60%;
-    height: 60%;
-    border: 1px solid;
-    flex-wrap: wrap;
-    gap: 50px;
-    padding: 10px;
-}
-.box .projeto  {
-    display: flex;
     justify-content: center;
-    padding: 10px;
-    width: 30% ;
-    height: 30%;
-    border: 1px solid black ;
+    width: 100%;
+    height: 100vh;
+    background: #404053;
+    flex-direction: column;
+    gap: 50px;
 }
-.projeto a img{
+.projetos-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+}
+.projetos-container a{
+    width: 30%;
+    height: 35%;
+}
+.projetos-container a:hover{
+    background: rgba(0, 0, 0, 0.377);
+    border-radius: 15px;
+}
+.projetos-container img{
     width: 100%;
     height: 100%;
 }
-.projeto :hover{
-    margin-bottom: 10px;
-}
-.contato{
-    background:  #49495f;
-    height: 100vh;
-    width: 100%;
-    padding-right: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.contato .box, span{
-    display: flex;
-    flex-direction: column;
-    font-size: 20pt;
-}
 .redes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #343444;
     flex-direction: column;
 }
-.redes .box{
+.redes-container{
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+    border: 3px solid black;
     display: flex;
-    gap: 100px;
+    align-items: center;
+    justify-content: space-around;
 }
-.redes img{
-    width: 150px;
-    height: 150px;
+.redes-container a img{
+    width: 80%;
+    height: 60%;
 }
-.redes img:hover{
-    margin-bottom: 10px;
+.redes-container img:hover{
+    background: rgba(0, 0, 0, 0.452);
+    border-radius: 15px;
 }
-footer{
-    background: rgba(0, 0, 0, 0.521);
-    height: 200px;
-}
-footer h2{
-    text-align:center;
-    padding-top: 80px;
-    color: white;
-}
-@media(max-width: 600px){
-    header ul li a{
-        font-size: 10pt;
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+    .enable{
+        display: flex;
     }
-   
+    header{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 12pt;
+        gap: 30px;
+        position: fixed;
+        z-index: 10;
+    }
+    header ul{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 120px;
+        width: 500px;
+        height: 200px;
+        background: rgba(0, 0, 0, 0.377);
+        z-index: 1;
+        font-size: 16pt;
+    }
+    .title{
+        display: flex;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .menu span{
+        background: white;
+        width: 50px;
+        height: 10px;
+        border-radius: 5px;
+    }
+    .icons img{
+        width: 80px;
+        height: 80px;
+    }
+    .text{
+        margin-top: 300px;
+    }
+    .text h1{
+        font-size: 20pt;
+    }
+    .projetos-container{
+        width: 80%;
+        height: 30%;
+      
+    }
+    .projetos-container a{
+        width: 25%;
+        height: 25%;
+    }
+   .redes-container{
+        width: 90%;
+        height: 40%;
+   }
+    .redes-container a img{
+        width: 70%;
+        height: 50%;
+    }
 }

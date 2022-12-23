@@ -1,101 +1,73 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <title>Douglas Silva Santos</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="Imagens/logo.png" type="image/x-icon">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projeto">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a href="#redes">Redes Sociais</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <h1 class="title">Douglas Silva Santos</h1>
+        <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="" id="MenuDrop">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#redes">Redes Sociais</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
     </header>
 
-        <main>
-            <div class="capa">
-               
-                <div class="imgs">
+    <main class="main">
+        <div class="inicio" id="inicio">
+            <div class="inicio-container">
+                <div class="text"><h1 id="startText">Douglas Desenvolvedor Web
+                </h1> <br>
+                    Olá, Seja bem-vindo ao meu Portfolio me chamo DOUGLAS <br>
+                    sou desenvolvedor web Full Stack Tenho 16 anos <br>
+                    e estudo programação HTML, Css, JavaScript e Python.
+                </div>
+                <div class="icons">
                     <img src="img/html.png" alt="">
                     <img src="img/css.png" alt="">
                     <img src="img/js.png" alt="">
-                    <img src="img/py.jpg" alt="">
                     <img src="img/sql.png" alt="">
-                </div>
-
-                <div id="sobre">
-                <span>
-                    <h2>Douglas Desenvolvedor Web <br> <h2> </h2>
-                        <span>
-                            <h3>Sobre Mim</h3>
-                        Olá, Seja bem-vindo ao meu Portfolio me chamo DOUGLAS <br> 
-                            sou desenvolvedor web 
-                        Full Stack  Tenho 16 anos <br> e estudo programação HTML, Css, Js e Py. 
-                       
-                        </span>
-                    </h1>
-                </span>
-            </div>
-
-            </div>
-
-            <div id="projeto">
-                <h1 class="h1">Projetos</h1>
-                <div class="box">
-                 <div class="projeto shop">
-                    <a href="Projetos/3D Splash/index.html"><img src="img/Carrinho.png" alt=""></a>
-                 </div>
-                 <div class="projeto cr">
-                    <a href="Projetos/Chronometro/index.html"><img src="img/Chonometro.png" alt=""></a>
-                 </div>
-                 <div class="projeto insta">
-                    <a href="Projetos/InstaCopy/index.html"><img src="img/ICO-Insta.png" alt=""></a>
-                 </div>
-                 <div class="projeto land">
-                    <a href="Projetos/Landing Page/index.html"><img src="img/LandingPage.png" alt=""></a>
-                 </div>
+                    <img src="img/py.jpg" alt="">
                 </div>
             </div>
+        </div>
 
-            <div class="contato" id="contato">
-                <h1>Contato</h1>
-                <div class="box">
-                    <span> 📧contato.douglas.dev@gmail.com</span>
-                    <span>  ☎Telefone +55 (71) 9 9261-8328</span>
-                    
-                    
-                    
-                </div>
+        <div class="projetos" id="projetos">
+            <h1>Projetos</h1>
+            <div class="projetos-container">
+                <a href="Projetos/3D Splash/"><img src="img/Carrinho.png" alt=""></a>
+                <a href="Projetos/Landing Page/index.html"><img src="img/LandingPage.png" alt=""></a>
+                <a href="Projetos/InstaCopy/index.html"><img src="img/insta.png" alt=""></a>
+                <a href="Projetos/Caixa_UI/index.html"><img src="img/UI-caixa.png" alt=""></a>
+                <a href="Projetos/Discopy/index.html"><img src="img/discopy.png" alt=""></a>
             </div>
+        </div>
 
-            <div class="redes" id="redes">
-                <h1>Redes Sociais</h1>
-                <div class="box">
-                    <a href="https://github.com/skyzzin" target="_blank"><img src="img/ICo-GitHub.png" alt=""></a>
-                    <a href="https://www.linkedin.com/in/douglas-silva-309b4522a/" target="_blank"><img src="img/ICO-Linkedin.png" alt=""></a>
-                  
-                </div>
+        <div class="redes" id="redes">
+            <h1>Redes Sociais</h1>
+            <div class="redes-container">
+                <a href="https://github.com/skyzzin"><img src="img/ICo-GitHub.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/douglas-silva-309b4522a/"><img src="img/ICO-Linkedin.png" alt=""></a>
             </div>
+        </div>
 
-        </main>
-        <footer>
+        <div id="contato" class="contato">
+            <div class="contato-container">
+                
+            </div>
+        </div>
 
-            <h2>&copy; 2022 Douglas Silva Santos </h2>
-        </footer>
-
-
-
-
-
-
-        <script src="script.js"></script>
-    </body>
-    </html>
+    </main>
+    
+</body>
+</html>

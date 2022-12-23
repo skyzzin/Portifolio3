@@ -214,7 +214,8 @@ main .projetos{
         margin-top: 300px;
     }
     .text h1{
-        font-size: 16pt;
+        margin-top:30px;
+        font-size: 18pt;
     }
     .projetos-container{
         width: 80%;

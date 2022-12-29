@@ -1,4 +1,4 @@
-let player = document.querySelector('.player')
+let player = document.querySelector('.player img')
 let speedbtn = document.querySelector('.speedbtn')
 let clickbtn = document.querySelector('.clickbtn')
 let clickDash = document.querySelector('#clickDash')

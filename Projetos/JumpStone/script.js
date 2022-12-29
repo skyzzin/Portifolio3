@@ -52,7 +52,7 @@ function buyClickSpeed(){
         statusGold.textContent=`Gold ${gold}`
         speedbtn.textContent=`Speed $${price}`
         clickvalue =speed*2
-        clickDash.textContent=`Resete ${resetevalue}`
+        clickDash.textContent=`Click ${clickvalue}`
     }
 }
 

@@ -1,4 +1,4 @@
-let player = document.querySelector('.player')
+let player = document.querySelector('.player img')
 let speedbtn = document.querySelector('.speedbtn')
 let clickbtn = document.querySelector('.clickbtn')
 let clickDash = document.querySelector('#clickDash')
@@ -21,6 +21,7 @@ let speed = 1
 let clickvalue = 2
 let price = 10
 let resetevalue = 0
+
 
 clickbtn.addEventListener('click',Jump)
 
@@ -64,11 +65,13 @@ function resete(){
         speed = 1
         price= 10
         clickvalue = 1
+        statusGold.textContent=`Gold ${gold}`
         statusSpeed.textContent=`Speed ${speed}`
         speedbtn.textContent=`Speed $${price}`
         clickDash.textContent=`Click ${clickvalue}`
         resetebtn.style.background='gold'
         resetebtn.textContent='Resete'
+      
     }
     else{
         resetebtn.style.background='Red'
@@ -80,7 +83,6 @@ autoclickbtn.addEventListener('click',autoClick)
 
 function autoClick(){
     if(speed >= 10){
-      
         let auto = setInterval(function(){
             gold += speed * 2
             statusGold.textContent=`Gold:${gold}` 

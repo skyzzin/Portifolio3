@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Open+Sans:wght@300&family=Prosto+One&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Zen+Dots&display=swap');
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #FFF2E7;
+}
+.logo{
+    cursor: pointer;
+}
+body{
+    background: linear-gradient(to left,#8E5D52,#2F2325);
+}
+.header{
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid #FFF2E7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.header ul li:hover{
+    color: #ECD6C4;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-size: 64px;
+}
+.container-center{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.btnadd{
+    margin-top: 50px;
+    width: 130px;
+    height: 51px;
+    border-radius: 20px;
+    border: none;
+    background: #ECD6C4;
+    color: black;
+    font-size: 14pt;
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btnadd:hover{
+    background: #ecd6c4c5;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .titleone{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    border-top: .4px solid #ECD6C4 ;
+    padding-top: 100px;
+}
+.footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: #FFF2E7 0.4px solid;
+    padding-top: 30px;
+    width: 100%;
+}
+footer section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 300px;
+}
+footer div img{
+    height: 50px;
+}

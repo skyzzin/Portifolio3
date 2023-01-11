@@ -17,3 +17,13 @@ function write(e){
 
 const title = document.querySelector('#startText');
 write(title);
+
+
+let position = document.querySelector('.positions').addEventListener('click',function(event){
+    let e = event.target.id;
+    
+    if(e == 'pos1'){
+
+    }
+
+})

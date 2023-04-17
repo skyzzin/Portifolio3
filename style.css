@@ -138,23 +138,8 @@ main .projetos{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width:800px){
+  
     .enable{
         display: flex;
     }
@@ -164,7 +149,7 @@ main .projetos{
         color: white;
         font-size: 12pt;
         gap: 30px;
-        position: fixed;
+        
         z-index: 10;
     }
     header ul{
@@ -172,9 +157,9 @@ main .projetos{
         flex-direction: column;
         position: absolute;
         top: 120px;
-        width: 500px;
+        width: 100%;
         height: 200px;
-        background: rgba(0, 0, 0, 0.377);
+        background: #4B4B66;
         z-index: 1;
         font-size: 16pt;
     }
@@ -194,11 +179,12 @@ main .projetos{
         border-radius: 5px;
     }
     .icons img{
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
     .text{
         margin-top: 300px;
+        font-size: 12pt;
     }
     .text h1{
         margin-top:30px;
@@ -217,7 +203,7 @@ main .projetos{
     }
     .projetos-container{
         width: 100%;
-        height: ;
     }
+
   
 }

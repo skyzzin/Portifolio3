@@ -46,6 +46,10 @@ a{
     gap: 50px;
     flex-wrap: wrap;
 }
+.box img{
+    width: 70%;
+    border-radius: 100%;
+}
 @media(max-width:1248px){
     .boxDisplay{
         justify-content: start;

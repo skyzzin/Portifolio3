@@ -37,15 +37,14 @@ function Projects() {
         </div>
         </a>
 
-        <a href="https://imoveisgoogle.com.br/" target='_blank'>
+        <a href="https://arcade-store.netlify.app/" target='_blank'>
         <div className="box">
-            <h1>My First Project</h1>
-           <img src="mainproject.png" alt="" />
+            <h1>My Third Project</h1>
+           <img src="project3.png" style={{height:"40%"}} alt="" />
             <div className="tags">
               <div className="tag">NodeJS</div>
               <div className="tag">ReactJS</div>
-              <div className="tag">ExpressJS</div>
-              <div className="tag">15-05-2023</div>
+              <div className="tag">05-08-2023</div>
             </div>
            
         </div>

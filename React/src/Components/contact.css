@@ -1,0 +1,83 @@
+.contact{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.redes{
+    display: flex;
+    align-items: center;
+    width: auto;
+    background: dodgerblue;
+    font-size: 50pt;
+    height: auto;
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    gap: 30px;
+}
+.redes a{
+    color: white;
+}
+.redes a:hover{
+    color: gainsboro;
+}
+.infos{
+    margin: 50px;
+    background: dodgerblue;
+    display: flex;
+    gap: 20px;
+    color: white;
+    height: 100px;
+    padding: 20px;
+    font-size: 14pt;
+    border-radius: 15px;
+    min-width: 100px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.infos i{
+    font-size: 50pt;
+}
+.mainProject{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    margin-top: 20px;
+}
+.mainProject .box{
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.398);
+    border-radius: 15px;
+    width: 100% ;
+    height: 100%; 
+}
+.mainProject .box a{
+    width: 100%;
+    height: 95%;
+}
+.mainProject .box a img{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:795px){
+   .contact{
+       flex-wrap: nowrap;
+       flex-direction: column;
+   }
+   .redes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+   }
+   .redes:nth-child(1){
+    font-size: 80pt;
+   }
+    
+}

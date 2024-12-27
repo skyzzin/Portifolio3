@@ -1,4 +1,3 @@
-import React from 'react';
 import ProjectCard, { Project } from './ProjectCard';
 
 export default function Projects() {

@@ -62,7 +62,28 @@ export default function Projects() {
         
         title: "Tap Tap Chat",
         iconSize:0
+      },
+      {
+        colorButton: "bg-green-600",
+        colorContainer: "bg-green-500",
+        colorTextButton: "text-white",
+        description: "Sistema De Gerenciamento De Reciclagem Por Criptomoedas",
+        icon: './assets/projects/attosgreen/logo.svg',
+        url:'https://attosgreen.com.br',
+        imgs: [
+            "./assets/projects/attosgreen/website.svg",
+            "./assets/projects/attosgreen/Dashboard-COLETOR.svg",
+            "./assets/projects/attosgreen/alterar senha.svg",
+            "./assets/projects/attosgreen/Frame 19.svg",
+            "./assets/projects/attosgreen/Frame 21.svg",
+            "./assets/projects/attosgreen/Frame 22.svg",
+         
+        ],
+        
+        title: "Attosgreen",
+        iconSize:30
       }
+
    
   ];
 
